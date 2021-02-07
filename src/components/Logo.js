@@ -1,6 +1,6 @@
 function Logo() {
     return (
-        <h1 className="nabvar__logo">Ahmet Batuhan Kılıç</h1>
+        <h1>Ahmet Batuhan Kılıç</h1>
     )
 }
 
