@@ -10,7 +10,7 @@ function Header({ links }) {
     return <>
         <header>
             <nav>
-                {links}
+                {linkler}
             </nav>
         </header>
     </>
