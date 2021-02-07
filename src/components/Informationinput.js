@@ -1,7 +1,10 @@
 function Informationınput() {
+    /* console.dir(document.getElementById("test")) */
+
+
     return (
         <div className="inputs">
-            <input placeholder="isim" />
+            <input id="test" placeholder="isim" />
             <input placeholder="Bilgi" />
         </div>
     )
