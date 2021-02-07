@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react"
+import axios from "axios"
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom"
-import axios from "axios"
 
 /* componenet */
 import Header from "./components/Header"
@@ -17,6 +17,7 @@ import './css/App.css';
 function App() {
   const [links, setLink] = useState([])
 
+
   useEffect(() => {
     axios.get('http://localhost:3004/headerLinks')
       .then(function ({ data }) {
@@ -28,6 +29,7 @@ function App() {
         console.log(error)
       })
   }, [])
+
 
   return (
     <Router>

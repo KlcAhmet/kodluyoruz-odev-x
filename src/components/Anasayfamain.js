@@ -1,4 +1,6 @@
+import user from "../App"
 import Informationınput from "./Informationinput"
+import Usercard from "./Usercard"
 
 function Anasayfamain() {
     return (
@@ -7,7 +9,7 @@ function Anasayfamain() {
                 <Informationınput />
             </section>
             <section>
-                /////
+                <Usercard users={user} />
             </section>
         </div>
     )
