@@ -8,7 +8,7 @@ import axios from "axios"
 
 /* componenet */
 import Header from "./components/Header"
-
+import Anasayfamain from "./components/Anasayfamain"
 import './css/App.css';
 
 
@@ -36,7 +36,7 @@ function App() {
         <Route path="/projects" />
         <Route path="/about" />
         <Route path="/" /* component={//} */>
-          test
+          <Anasayfamain />
         </Route>
       </Switch>
 
