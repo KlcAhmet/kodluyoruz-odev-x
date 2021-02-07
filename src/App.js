@@ -6,7 +6,7 @@ import {
 } from "react-router-dom"
 import axios from "axios"
 
-/* import './App.css'; */
+import './css/App.css';
 
 
 function App() {
@@ -27,9 +27,9 @@ function App() {
 
 
   return (
-    <div className="App">
-      test
-    </div>
+    <Router>
+
+    </Router>
   );
 }
 
