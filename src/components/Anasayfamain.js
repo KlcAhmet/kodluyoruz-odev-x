@@ -8,7 +8,7 @@ function Anasayfamain() {
             </section>
             <section>
                 /////
-                </section>
+            </section>
         </div>
     )
 }
