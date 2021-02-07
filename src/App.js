@@ -9,6 +9,7 @@ import axios from "axios"
 /* componenet */
 import Header from "./components/Header"
 import Anasayfamain from "./components/Anasayfamain"
+/* css */
 import 'bootstrap/dist/css/bootstrap.css';
 import './css/App.css';
 
