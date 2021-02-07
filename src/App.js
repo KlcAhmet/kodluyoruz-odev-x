@@ -33,14 +33,16 @@ function App() {
     <Router>
       <Header links={links} />
 
-      <Switch>
-        <Route path="/blog" />
-        <Route path="/projects" />
-        <Route path="/about" />
-        <Route path="/">
-          <Anasayfamain />
-        </Route>
-      </Switch>
+      <main>
+        <Switch>
+          <Route path="/blog" />
+          <Route path="/projects" />
+          <Route path="/about" />
+          <Route path="/">
+            <Anasayfamain />
+          </Route>
+        </Switch>
+      </main>
 
     </Router >
   );
