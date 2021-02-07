@@ -10,7 +10,9 @@ function Header({ links }) {
     return <>
         <header>
             <nav>
-                {linkler}
+                <div className="container">
+                    {linkler}
+                </div>
             </nav>
         </header>
     </>
