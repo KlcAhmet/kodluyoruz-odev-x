@@ -9,7 +9,7 @@ function Anasayfamain() {
                 <Informationınput />
             </section>
             <section>
-                <Usercard users={user} />
+                <Usercard />
             </section>
         </div>
     )
