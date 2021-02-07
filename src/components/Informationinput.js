@@ -1,11 +1,8 @@
 function Informationınput() {
-    /* console.dir(document.getElementById("test")) */
-
-
     return (
         <div className="inputs">
-            <input id="test" placeholder="isim" />
-            <input placeholder="Bilgi" />
+            <input id="isimInput" placeholder="isim" />
+            <input id="bilgiInput" placeholder="Bilgi" />
         </div>
     )
 }
