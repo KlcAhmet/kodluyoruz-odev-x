@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react"
 import axios from "axios"
 
 function Usercard({ name, desc }) {
-
     const [user, setUser] = useState([])
     useEffect(() => {
         axios.get('http://localhost:3004/users')
@@ -41,9 +40,6 @@ function Usercard({ name, desc }) {
             </div>
         )
     }
-
-
-
 }
 
 
