@@ -31,6 +31,15 @@ function App() {
     <Router>
       <Header links={links} />
 
+      <Switch>
+        <Route path="/blog" />
+        <Route path="/projects" />
+        <Route path="/about" />
+        <Route path="/" /* component={//} */>
+          test
+        </Route>
+      </Switch>
+
     </Router>
   );
 }
