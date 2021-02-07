@@ -6,17 +6,20 @@ import {
 } from "react-router-dom"
 import axios from "axios"
 
+/* componenet */
+import Header from "./components/Header"
+
 import './css/App.css';
 
 
 function App() {
+  const [links, setLink] = useState([])
 
   useEffect(() => {
-    /* linkteki data'yı getir */
     axios.get('http://localhost:3004/headerLinks')
       .then(function ({ data }) {
         console.log({ data })
-        /* setLinks(data) */
+        setLink(data)
       })
       .catch(function (error) {
         console.log("Hata")
@@ -24,10 +27,9 @@ function App() {
       })
   }, [])
 
-
-
   return (
     <Router>
+      <Header links={links} />
 
     </Router>
   );
