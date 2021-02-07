@@ -9,6 +9,7 @@ import axios from "axios"
 /* componenet */
 import Header from "./components/Header"
 import Anasayfamain from "./components/Anasayfamain"
+import 'bootstrap/dist/css/bootstrap.css';
 import './css/App.css';
 
 
@@ -35,12 +36,12 @@ function App() {
         <Route path="/blog" />
         <Route path="/projects" />
         <Route path="/about" />
-        <Route path="/" /* component={//} */>
+        <Route path="/">
           <Anasayfamain />
         </Route>
       </Switch>
 
-    </Router>
+    </Router >
   );
 }
 
