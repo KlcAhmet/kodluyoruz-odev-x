@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import Logo from "./Logo"
 
 function Header({ links }) {
     const linkler = []
@@ -11,6 +12,7 @@ function Header({ links }) {
         <header>
             <nav>
                 <div className="navbar container">
+                    <Logo />
                     {linkler}
                 </div>
             </nav>
