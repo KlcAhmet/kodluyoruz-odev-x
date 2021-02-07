@@ -19,5 +19,26 @@
             "title": "Hakkımda",
             "link": "/about"
         }
+    ],
+    "users": [{
+            "id": 1,
+            "name": "Ahmet Batuhan Kılıç",
+            "desc": "Yılın en performanslı çalışan ödülü adayı"
+        },
+        {
+            "id": 2,
+            "name": "Ayşe Bilir",
+            "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sunt dolorum eligendi totam, pariatur corrupti reiciendis aliquid! In, nisi ipsa."
+        },
+        {
+            "id": 3,
+            "name": "Selen Gümüş",
+            "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sunt dolorum eligendi totam, pariatur corrupti reiciendis aliquid! In, nisi ipsa."
+        },
+        {
+            "id": 4,
+            "name": "Serdar Baş",
+            "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sunt dolorum eligendi totam, pariatur corrupti reiciendis aliquid! In, nisi ipsa."
+        }
     ]
 }
