@@ -1,3 +1,52 @@
 body {
-    background-color: #ffffff;
+  background-image: url("../img/background.png");
 }
+
+.header {
+  background-color: rgba(122, 123, 123, 0.4);
+  border: 1px solid rgba(104, 105, 105, 0.2);
+  margin-bottom: 30px;
+}
+
+.header .logo {
+  padding: 0;
+}
+
+.header .logo h1 {
+  color: #000000;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.header .navlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header .navlink__link {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 6px;
+}
+
+.header .active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 780px) {
+  .header .logo h1 {
+    margin: 0;
+    text-align: center;
+  }
+  .header .navlink {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=App.css.map */

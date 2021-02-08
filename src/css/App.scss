@@ -1,0 +1,43 @@
+:root {}
+
+body {
+    background-image: url("../img/background.png");
+}
+
+.header {
+    background-color: rgba(122, 123, 123, 0.4);
+    border: 1px solid rgba(104, 105, 105, 0.2);
+    margin-bottom: 30px;
+    .logo {
+        padding: 0;
+        h1 {
+            color: #000000;
+            font-size: 30px;
+            margin-left: 10px;
+        }
+    }
+    .navlink {
+        display: flex;
+        justify-content: flex-end;
+        &__link {
+            color: #000000;
+            font-size: 17px;
+            font-weight: 600;
+            margin: 6px;
+        }
+    }
+    .active {
+        text-decoration: underline;
+    }
+    @media screen and (max-width: 780px) {
+        .logo {
+            h1 {
+                margin: 0;
+                text-align: center;
+            }
+        }
+        .navlink {
+            justify-content: center;
+        }
+    }
+}
