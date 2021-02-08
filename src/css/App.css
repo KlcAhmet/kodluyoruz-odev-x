@@ -49,4 +49,9 @@ body {
             justify-content: center;
   }
 }
+
+.inputs input {
+  margin: 0px 5px;
+  outline-color: #7c9673;
+}
 /*# sourceMappingURL=App.css.map */
