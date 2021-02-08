@@ -48,3 +48,30 @@ body {
         outline-color: rgb(124, 150, 115);
     }
 }
+
+.user-card {
+    background-color: rgba(96, 110, 103, 0.753);
+    border: 1px solid rgb(104, 116, 110);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+    figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__name {
+        display: block;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+    &__desc {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        /* number of lines to show */
+        -webkit-box-orient: vertical;
+        word-wrap: break-word;
+    }
+}
