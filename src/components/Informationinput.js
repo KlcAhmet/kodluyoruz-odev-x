@@ -1,8 +1,8 @@
 function Informationınput() {
     return (
         <div className="inputs">
-            <input id="inputs__isimInput" placeholder="isim" />
-            <input id="inputs__bilgiInput" placeholder="Bilgi" />
+            <input id="isimInput" placeholder="isim" />
+            <input id="bilgiInput" placeholder="Bilgi" />
         </div>
     )
 }
