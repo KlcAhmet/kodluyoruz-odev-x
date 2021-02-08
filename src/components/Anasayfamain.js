@@ -17,12 +17,16 @@ function Anasayfamain() {
     return (
         <div className="container">
             <section>
-                <Informationınput />
-                <Button id={"inputbutton"} title={"Ekle"} className={"inputs__button btn btn-success btn-sm active"} onClick={ekle} />
+                <div className="row d-flex justify-content-center">
+                    <Informationınput />
+                    <Button id={"inputbutton"} title={"Ekle"} className={"btn btn-success btn-sm"} onClick={ekle} />
+                </div>
             </section>
             <section>
-                <Usercard />
-                {usercomp}
+                <div className="row">
+                    <Usercard />
+                    {usercomp}
+                </div>
             </section>
         </div>
     )
