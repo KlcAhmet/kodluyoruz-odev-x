@@ -16,7 +16,7 @@ function Usercard({ id, name, desc }) {
     }, [])
     if (name == null) {
         return user.map(({ id, name, desc }) => (
-            <div key={id} className="user-card">
+            <div key={id} className="user-card col-3">
                 <figure>
                     <img src="https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png" alt="user" width="40" />
                 </figure>
@@ -29,7 +29,7 @@ function Usercard({ id, name, desc }) {
     }
     else {
         return (
-            <div key={id} className="user-card">
+            <div key={id} className="user-card col-3">
                 <figure>
                     <img src="https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png" alt="user" width="40" />
                 </figure>
