@@ -5,20 +5,24 @@ function Header({ links }) {
     const linkler = []
 
     links.forEach(({ id, title, link }) => {
-        linkler.push(<NavLink exact to={link} key={id}>{title}</NavLink>)
+        linkler.push(<NavLink className="navlink__link" exact to={link} key={id}>{title}</NavLink>)
     });
 
     return <>
         <header className="header container">
             <section>
-                <div className="logo">
-                    <Logo />
-                </div>
-                <nav className="navbar">
-                    <div>
-                        {linkler}
+                <div className="row d-flex align-items-center">
+                    <div className="logo col-12 col-md-6">
+                        <Logo />
                     </div>
-                </nav>
+                    <div className="col-12 col-md-6">
+                        <nav >
+                            <div className="navlink">
+                                {linkler}
+                            </div>
+                        </nav>
+                    </div>
+                </div>
             </section>
         </header>
     </>
