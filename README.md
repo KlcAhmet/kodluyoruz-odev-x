@@ -34,6 +34,10 @@ npm install axios
 npm install --save react-router-dom
 npm install --save bootstrap
 ```
+##
+
+ - İnputlara girilen değerler ile yeni bir card oluşturup ekler ve
+   günceller
 
 ![enter image description here](https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-odev-x/master/screenshot/Screenshot_2.png?token=AAPU54ML6V6JAD5IVHHTEV3AFLDJQ)
 
