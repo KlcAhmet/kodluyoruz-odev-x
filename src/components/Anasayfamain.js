@@ -23,7 +23,7 @@ function Anasayfamain() {
                 </div>
             </section>
             <section>
-                <div className="row">
+                <div className="row d-flex justify-content-start">
                     <Usercard />
                     {usercomp}
                 </div>
