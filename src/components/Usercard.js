@@ -34,8 +34,8 @@ function Usercard({ id, name, desc }) {
                     <img src="https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png" alt="user" width="40" />
                 </figure>
                 <div>
-                    <strong>{name}</strong>
-                    <p>{desc}</p>
+                    <strong className="user-card__name">{name}</strong>
+                    <p className="user-card__desc">{desc}</p>
                 </div>
             </div>
         )
