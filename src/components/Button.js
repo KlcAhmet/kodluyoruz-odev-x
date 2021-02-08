@@ -1,11 +1,6 @@
-function Button({ id, title, className }) {
-    /*     const isim= document.getElementById("isimInput")
-        const bilgi= document.getElementById("bilgiInput")
-        console.dir(isim)
-        console.dir(bilgi) */
-
+function Button({ id, title, className, onClick }) {
     return (
-        <button id={id} type="button" className={className}>{title}</button>
+        <button id={id} type="button" className={className} onClick={onClick}>{title}</button>
     )
 }
 
